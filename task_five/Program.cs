@@ -48,7 +48,7 @@ namespace task_five
         {
             for (int i = 0; i < matrix.GetLength(0); i++)
                 for (int j = 0; j < matrix.GetLength(0); j++)
-                    matrix[i, j] = rand.Next(-1000, 1000) / 10;
+                    matrix[i, j] = (double)rand.Next(-1000, 1000) / 10;
             return matrix;
         }
 
